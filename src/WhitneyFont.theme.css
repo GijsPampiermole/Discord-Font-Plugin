@@ -1,0 +1,17 @@
+/**
+* @name Whitney Font
+* @version 1.0
+* @author Grey'#0001
+* @description A theme that removes the new ugly font and changes it back to the original
+* @source https://github.com/GijsPampiermole/Discord-Font-Plugin
+*/
+
+@font-face {
+    font-family: 'whitney';
+    src: url('Whitney-Book.ttf');
+}
+
+:root {
+    --font-primary:  'whitney'!important;
+    --font-display:  'whitney'!important;
+}
